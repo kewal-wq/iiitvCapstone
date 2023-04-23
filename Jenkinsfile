@@ -1,8 +1,7 @@
 pipeline {
     agent any
     environment {
-	docker_cred = credentials("726e25c0-c230-446e-ab9c-8b4c63a1f888
-")
+	docker_cred = credentials("22a2c9f6-8559-4d8f-ab2e-3b07fcabed00")
     }
     stages {
 	stage('Login to dockerhub') {
